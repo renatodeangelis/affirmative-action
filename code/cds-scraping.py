@@ -26,7 +26,7 @@ universities = {
     "University of Michigan": "https://obp.umich.edu/campus-statistics/common-data-set/",
 }
 
-years = ["2021", "2022", "2023"]
+years = ["2021", "2022", "2023", "2024"]
 
 save_path = "../data/cds/"
 
