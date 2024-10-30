@@ -26,3 +26,41 @@ universities = {
     "University of Michigan": "https://obp.umich.edu/campus-statistics/common-data-set/",
 }
 
+years = ["2021", "2022", "2023"]
+
+save_path = "../data/cds/"
+
+os.makedirs(save_path, exist_ok = True)
+
+def download_pdf(url, file_name):
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        with open(file_name, "wb") as f:
+            f.write(response.content)
+        print(f"Downloaded: {file_name}")
+    except requests.exceptions.RequestException as e:
+        print(f"Failed to download {url}: {e}")
+
+for university, url in universities.items():
+    print(f"Processing {university}...")
+
+    try:
+        # Fetch the university page
+        response = requests.get(url)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, "html.parser")
+
+        # Find all links to PDFs on the page
+        pdf_links = [a['href'] for a in soup.find_all('a', href=True) if a['href'].endswith('.pdf')]
+
+        # Filter links by year and download the relevant files
+        for year in years:
+            for pdf_link in pdf_links:
+                if year in pdf_link:
+                    pdf_url = urljoin(url, pdf_link)
+                    file_name = os.path.join(save_path, f"{university}_{year}_CDS.pdf")
+                    download_pdf(pdf_url, file_name)
+
+    except requests.exceptions.RequestException as e:
+        print(f"Failed to access {url} for {university}: {e}")
