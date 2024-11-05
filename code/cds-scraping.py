@@ -64,3 +64,4 @@ for university, url in universities.items():
 
     except requests.exceptions.RequestException as e:
         print(f"Failed to access {url} for {university}: {e}")
+        
