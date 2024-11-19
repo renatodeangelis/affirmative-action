@@ -2,7 +2,8 @@ import os
 import pdfplumber
 import pandas as pd
 
-directory = "/Users/macbook/affirmative-action/data/cds"
+input_directory = "/Users/macbook/affirmative-action/data/cds"
+output_directory = "/Users/macbook/affirmative-action/data/tables"
 
 keyword = "African American"
 
@@ -22,14 +23,14 @@ def extract_tables_with_keyword(pdf_path, keyword):
 
     return tables
 
-for filename in os.listdir(directory):
+for filename in os.listdir(input_directory):
     if filename.endswith('.pdf'):
-        pdf_path = os.path.join(directory, filename)
+        pdf_path = os.path.join(input_directory, filename)
         tables = extract_tables_with_keyword(pdf_path, keyword)
         for i, table in enumerate(tables):
             df = pd.DataFrame(table)
             csv_filename = f"{os.path.splittext(filename)[0]}_table_{i + 1}.csv"
-            csv_path = os.path.join(directory, csv_filename)
+            csv_path = os.path.join(output_directory, csv_filename)
             df.to_csv(csv_path, index = False)
             print(f"Extracted table from {filename} and saved as {csv_filename}")
 
