@@ -2,7 +2,7 @@ import os
 import pdfplumber
 import pandas as pd
 
-directory = "../data/cds"
+directory = "/Users/macbook/affirmative-action/data/cds"
 
 keywords = ["African American"]
 
@@ -14,8 +14,8 @@ def extract_tables_with_keywords(pdf_path, keywords):
             if text and any(keyword.lower() in text.lower() for keyword in keywords):
                 page_tables = page.extract_tables()
                 for table in page_tables:
-                    tables.appen({
-                        'page_number': page_number + 1
+                    tables.append({
+                        'page_number': page_number + 1,
                         'table': table
                     })
     return tables
@@ -31,7 +31,6 @@ for filename in os.listdir(directory):
                 csv_filename = f"{os.path.splitext(filename)[0]}_page_{item['page_number']}.csv"
                 csv_path = os.path.join(directory, csv_filename)
                 df.to_csv(csv_path, index = False)
-                print(f"Extracted table from {filename} (Page {item['page_number']}) and
-                      saved as {csv_filename}")
+                print(f"Extracted table from {filename} (Page {item['page_number']}) and saved as {csv_filename}")
                 
 print("Table extract completed")
