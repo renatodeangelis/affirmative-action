@@ -4,33 +4,33 @@ import pandas as pd
 
 directory = "/Users/macbook/affirmative-action/data/cds"
 
-keywords = ["African American"]
+keyword = "African American"
 
-def extract_tables_with_keywords(pdf_path, keywords):
+def extract_tables_with_keyword(pdf_path, keyword):
     tables = []
     with pdfplumber.open(pdf_path) as pdf:
-        for page_number, page in enumerate(pdf.pages):
+        for page in pdf.pages:
             text = page.extract_text()
-            if text and any(keyword.lower() in text.lower() for keyword in keywords):
+            if text and keyword.lower() in text.lower():
                 page_tables = page.extract_tables()
                 for table in page_tables:
-                    tables.append({
-                        'page_number': page_number + 1,
-                        'table': table
-                    })
+                    if any(
+                        keyword.lower() in (str(cell).lower() if cell else '')
+                        for row in table for cell in row
+                    ):
+                        tables.append(table)
+
     return tables
 
-all_tables = []
 for filename in os.listdir(directory):
     if filename.endswith('.pdf'):
         pdf_path = os.path.join(directory, filename)
-        tables = extract_tables_with_keywords(pdf_path, keywords)
-        if tables:
-            for item in tables:
-                df = pd.DataFrame(item['table'])
-                csv_filename = f"{os.path.splitext(filename)[0]}_page_{item['page_number']}.csv"
-                csv_path = os.path.join(directory, csv_filename)
-                df.to_csv(csv_path, index = False)
-                print(f"Extracted table from {filename} (Page {item['page_number']}) and saved as {csv_filename}")
-                
-print("Table extract completed")
+        tables = extract_tables_with_keyword(pdf_path, keyword)
+        for i, table in enumerate(tables):
+            df = pd.DataFrame(table)
+            csv_filename = f"{os.path.splittext(filename)[0]}_table_{i + 1}.csv"
+            csv_path = os.path.join(directory, csv_filename)
+            df.to_csv(csv_path, index = False)
+            print(f"Extracted table from {filename} and saved as {csv_filename}")
+
+print("Table extraction completed.")
