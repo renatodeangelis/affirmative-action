@@ -21,7 +21,7 @@ universities = {
     "UCLA": "https://apb.ucla.edu/campus-statistics/common-data-set",
     "Berkeley": "https://opa.berkeley.edu/campus-data/common-data-set",
     "Rice": "https://oie.rice.edu/common-data-set",
-    "Notre Dame": "https://iris.nd.edu/institutional-research/common-data-set-cds/",
+    "Notre Dame": "https://iris.nd.edu/institutional-research/common-data-set-cds/common-data-set/",
     "Carnegie Mellon": "https://www.cmu.edu/ira/CDS/index.html",
     "Michigan": "https://obp.umich.edu/campus-statistics/common-data-set/",
 }
