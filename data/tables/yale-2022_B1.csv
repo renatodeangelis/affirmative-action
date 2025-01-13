@@ -1,0 +1,40 @@
+0,1,2,3,4
+,,"Full-time
+First-time
+First-year","Full-time
+Undergrad
+(Incl. Fresh)","Less Than
+Full-time
+Undergrad"
+A,"Number of degree-seeking undergraduate students
+(CDS Item B1 if reporting on Fall 2022 cohort)",1554,6639,0
+B,"Number of students in line a who applied for need-
+based financial aid",1055,3927,0
+C,"Number of students in line b who were determined to
+have financial need",847,3492,0
+D,"Number of students in line c who were awarded any
+financial aid",845,3490,0
+E,"Number of students in line d who were awarded any
+need-based scholarship or grant aid",842,3481,0
+F,"Number of students in line d who were awarded any
+need-based self-help aid",844,3479,0
+G,"Number of students in line d who were awarded any
+non-need-based scholarship or grant aid",0,0,0
+H,"Number of students in line d whose need was fully met
+(exclude PLUS loans, unsubsidized loans, and private
+alternative loans)",845,3497,0
+I,"On average, the percentage of need that was met of
+students who were awarded any need-based aid.
+Exclude any aid that was awarded in excess of need as
+well as any resources that were awarded to replace
+EFC (PLUS loans, unsubsidized loans, and private
+alternative loans)",1,1,0
+J,"The average financial aid package of those in line d.
+Exclude any resources that were awarded to replace
+EFC (PLUS loans, unsubsidized loans, and private
+alternative loans)","$ 70,295","$ 70,162",#VALUE!
+K,"Average need-based scholarship and grant award of
+those in line e","$ 68,240","$ 67,747",$ 0
+L,"Average need-based self-help award (excluding PLUS
+loans, unsubsidized loans, and private alternative loans)
+of those in line f","$ 2,300","$ 2,598",0

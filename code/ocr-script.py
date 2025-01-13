@@ -14,24 +14,25 @@ def extract_and_save_tables(pdf_folder, output_folder):
             pdf_path = os.path.join(pdf_folder, pdf_file)
             
             extracted_tables = {}
+            all_tables = []
             
             with pdfplumber.open(pdf_path) as pdf:
-                for section_keyword in section_keywords:
-                    found = False
-                    for page in pdf.pages:
-                        tables = page.extract_tables()
-                        for table in tables:
-                            flat_table = "\n".join([" ".join(str(cell) if cell is not None else "" for cell in row) for row in table if row])
-                            
-                            if re.search(rf"\b{section_keyword}\b", flat_table):
-                                if section_keyword not in extracted_tables:
-                                    df = pd.DataFrame(table)
-                                    extracted_tables[section_keyword] = df
-                                    found = True
-                                    break
-                        if found:
+                for page in pdf.pages:
+                    tables = page.extract_tables()
+                    for table in tables:
+                        all_tables.append(table)
+
+            for section_keyword in section_keywords:
+                for table in all_tables:
+                    flat_table = "\n".join([" ".join(str(cell) if cell is not None else "" for cell in row) for row in table if row])
+                    
+                    if re.search(rf"\b{section_keyword}\b", flat_table):
+                        if section_keyword not in extracted_tables:
+                            df = pd.DataFrame(table)
+                            extracted_tables[section_keyword] = df
                             break
             
+            # Save each extracted table to a CSV file
             for section, df in extracted_tables.items():
                 output_file = os.path.join(output_folder, f"{pdf_file.replace('.pdf', '')}_{section}.csv")
                 df.to_csv(output_file, index=False)
