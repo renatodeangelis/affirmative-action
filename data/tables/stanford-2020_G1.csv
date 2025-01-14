@@ -1,0 +1,46 @@
+0,1,2,3,4
+G. ANNUAL EXPENSES,,,,
+"G0 Please provide the URL of your institution’s net price calculator:
+https://financialaid.stanford.edu/undergrad/how/calculator/index.html#net-price-calculator
+Provide 2021-2022 academic year costs of attendance for the following categories that are applicable to
+your institution.
+X Check here if your institution's 2021-2022 academic year costs of attendance are not available at this time and
+provide an approximate date (i.e., month/day) when your institution's final 2021-2022 academic year costs of
+attendance will be available:
+G1 Undergraduate full-time tuition, required fees, room and board
+List the typical tuition, required fees, and room and board for a full-time undergraduate student for the FULL
+2021-2022 academic year. (30 semester hours or 45 quarter hours for institutions that derive annual tuition by
+multiplying credit hour cost by number of credits).
+• A full academic year refers to the period of time generally extending from September to June; usually
+equated to two semesters, two trimesters, three quarters, or the period covered by a four-one-four plan.
+• Room and board is defined as double occupancy and 19 meals per week or the maximum meal plan.
+• Required fees include only charges that all full-time students must pay that are not included in tuition
+(e.g., registration, health, or activity fees.)
+• Do not include optional fees (e.g., parking, laboratory use).",,,,
+"G1
+G2
+G3
+G4
+G5",,First-Year,Undergraduates,
+,PRIVATE INSTITUTIONS,"$55,473","$55,473",
+,Tuition:,,,
+,PUBLIC INSTITUTIONS,,,
+,Tuition: In-district,,,
+,Tuition: In-state (out-of-district):,,,
+,Tuition: Out-of-state:,,,
+,Tuition: Non-resident alien,"$55,473","$55,473",
+,FOR ALL INSTITUTIONS,,,
+,Required Fees,$696,$696,
+,Room and Board (on-campus):,"$17,255","$17,255",
+,Room Only (on-campus):,"$10,725","$10,725",
+,Board Only (on-campus meal plan):,"$6,530","$6,530",
+,,Residents,"Commuters
+(living at home)","Commuters
+(not living at home)"
+,Books and supplies:,"$1,290","$1,290","$1,290"
+,Room only:,,,
+,Board only:,,"$8,784",
+,Room and board total*,,,"$17,255"
+,Transportation:,varies,$936,varies
+,Other expenses:,"$3,504","$3,222","$3,504"
+,* If your college cannot provide separate,room and board figures for commuters not living at home,,

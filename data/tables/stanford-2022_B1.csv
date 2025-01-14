@@ -1,0 +1,25 @@
+0,1,2,3,4,5,6,7,8
+B. ENROLLMENT AND PERSISTENCE,,,,,,,,
+"B1 Institutional Enrollment - Men and Women
+Provide numbers of students for each of the following categories as of the institution's official fall reporting date or as of October 19, 2022.
+• Note: Report students formerly designated as “first professional” in the graduate cells.
+• If your institution collects and reports non-binary gender data, please use the ""Another Gender"" category.
+• In cases where gender information is not provided, please distribute across the two-binary categories.",,,,,,,,
+,,FULL-TIME,,,PART-TIME,,,
+,,Men,Women,Another Gender,Men,Women,"Another
+Gender",
+,Undergraduates,,,,,,,
+,"Degree-seeking, first-time, first-year",792,941,,,,,
+,"Other first-year, degree-seeking",72,69,,,,,
+,All other degree-seeking,"2,880","3,007",,,,,
+,Total degree-seeking,"3,744","4,017",0,0,0,0,
+,"All other undergraduates enrolled in
+credit courses",,,,168,120,,
+,Total undergraduates,"3,744","4,017",0,168,120,0,
+,Graduate,,,,,,,
+,"Degree-seeking, first-time","1,346","1,256",,42,28,,
+,All other degree-seeking,"3,692","2,908",,181,93,,
+,"All other graduates enrolled in credit
+courses",20,9,,457,202,,
+,Total graduate,"5,058","4,173",0,680,323,0,
+,Total all students,"8,802","8,190",0,848,443,0,

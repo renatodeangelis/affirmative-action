@@ -1,0 +1,30 @@
+0,1,2,3
+b) Number of students in line a who applied for need-based financial,"1,063","3,417",31
+"c) aNiudmber of students in line b who were determined to have financial
+need",807,"2,941",27
+"d)
+Number of students in line c who were awarded any financial aid",807,"2,941",27
+"e) Number of students in line d who were awarded any need-based
+scholarship or grant aid",797,"2,904",27
+"f) Number of students in line d who were awarded any need-based
+self-help aid",656,"2,523",16
+"g) Number of students in line d who were awarded any non-need-
+based scholarship or grant aid",0,0,0
+"h)
+Number of students in line d whose need was fully met (exclude
+PLUS loans, unsubsidized loans, and private alternative loans)",807,"2,904",27
+"i) On average, the percentage of need that was met of students who
+were awarded any need-based aid. Exclude any aid that was
+awarded in excess of need as well as any resources that were
+awarded to replace EFC (PLUS loans, unsubsidized loans, and
+private alternative loans)",100.0%,100.0%,100.0%
+"j) The average financial aid package of those in line d. Exclude any
+resources that were awarded to replace EFC (PLUS loans,
+unsubsidized loans, and private alternative loans)","$ 56,474","$ 56,301","$ 46,128"
+k) Average need-based scholarship and grant award of those in line e,"$ 54,823","$ 53,276","$ 45,015"
+"l)
+Average need-based self-help award (excluding PLUS loans,
+unsubsidized loans, and private alternative loans) of those in line f","$ 2,874","$ 3,181","$ 2,504"
+"m) Average need-based loan (excluding PLUS loans, unsubsidized
+loans, and private alternative loans) of those in line f who were
+awarded a need-based loan","$ 3,130","$ 4,019","$ 3,070"

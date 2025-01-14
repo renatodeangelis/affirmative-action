@@ -1,0 +1,7 @@
+0,1,2,3,4,5
+,ADMISSION,,,,
+,Require,Recommend,Require for Some,Consider if Submitted,"Not
+Considered"
+SAT or ACT,,,,x,
+ACT Only,,,,x,
+SAT Only,,,,x,

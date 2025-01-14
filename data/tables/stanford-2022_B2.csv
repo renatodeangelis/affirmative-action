@@ -1,0 +1,41 @@
+0,1,2,3,4,5,6
+B. ENROLLMENT AND PERSISTENCE,,,,,,
+"B2 Enrollment by Racial/Ethnic Category.
+Provide numbers of undergraduate students for each of the following categories as of the institutionʼs official fall reporting date or as of
+October 19, 2022.
+• Include international students only in the category ""Nonresidents.""
+• Complete the “Total Undergraduates” column only if you cannot provide data for the first two columns.
+• Report as your institution reports to IPEDS: persons who are Hispanic should be reported only on the
+Hispanic line, not under any race, and persons who are non-Hispanic multi-racial should be reported only
+under ""Two or more races.""
+• New guidance from IPEDS for reporting aggregate data:
+• Racial/ethnic designations are requested only for United States citizens, residents, and other eligible non-citizens.
+• Eligible non-citizens include all students who completed high school or a GED equivalency within the United States
+(including DACA and undocumented students) and who were not on an F-1 non-immigrant student visa at the time of
+high school graduation.
+• Nonresident - A person who is not a citizen or national of the United States and who is in this country on a student visa
+or temporary basis and does not have the right to remain indefinitely. Do not include DACA, undocumented, or other
+eligible noncitizens in this category.
+• NOTE - Nonresidents are to be reported separately, in the boxes provided, rather than included in any of the seven
+racial/ethnic categories or in race/ethnicity unknown.",,,,,,
+B3,,"Degree-Seeking
+First-Time
+First Year","Degree-Seeking
+Undergraduates
+(include
+first-time
+first-year)","Total
+Undergraduates
+(both degree &
+non-degree-seek
+ing)",,
+,Nonresidents,233,888,888,,
+,Hispanic/Latino,289,"1,364","1,482",,
+,"Black or African American, non-Hispanic",126,572,653,,
+,"White, non-Hispanic",381,"2,009","2,034",,
+,"American Indian or Alaska Native, non-Hispanic",17,68,70,,
+,"Asian, non-Hispanic",505,"2,045","2,073",,
+,"Native Hawaiian or other Pacific Islander, non-Hispanic",5,18,18,,
+,"Two or more races, non-Hispanic",172,778,812,,
+,Race and/or ethnicity unknown,5,19,19,,
+,TOTAL,"1,733","7,761","8,049",,

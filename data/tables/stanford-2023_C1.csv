@@ -1,0 +1,43 @@
+0,1,2,3,4
+"C. FIRST-TIME, FIRST-YEAR ADMISSION",,,,
+"C1. Applications: First-time, First-year Students
+Provide the number of degree-seeking, first-time, first-year students who applied, were admitted, and enrolled (full- or part-time) in Fall 2023.
+- Include early decision, early action, and students who began studies during summer in this cohort.
+- Applicants should include only those students who fulfilled the requirements for consideration for admission (i.e., who completed actionable
+applications) and who have been notified of one of the following actions: admission, non-admission, placement on waiting list, or application
+withdrawn (by applicant or institution).
+- Admitted applicants should include wait-listed students who were subsequently offered admission.
+- Since the total may include students who did not provide gender data, the detail need not sum to the total.
+- If your institution collects and reports non-binary gender data, please use the “Another Gender” category.
+- Note that recent high school graduates and other students without prior postsecondary experience will still be considered “first-time students” for fall
+enrollment reporting purposes even if they enrolled in the summer prior to fall enrollment.",,,,
+,Men,Women,"Another
+Gender",
+"Total first-time, first-year students who applied in Fall 2023","27,133","26,600",,
+,,,,
+"Total first-time, first-year students admitted in Fall 2023","1,044","1,055",,
+,,,,
+"Total first-time, first-year students enrolled in Fall 2023",846,853,,
+"Full-time, first-time, first-year students enrolled in Fall 2023",,,,
+"Part-time, first-time, first-year students enrolled in Fall 2023",,,,
+,,,,
+,In-State,Out-of-State,International,Total
+"Total first-time, first-year (degree seeking) who applied",,,,0
+"Total first-time, first-year (degree seeking) who were admitted",,,,0
+"Total first-time, first-year (degree seeking) enrolled",,,,0
+"C2. Applications: First-time, First-year Wait-Listed Students
+Students who met admission requirements but whose final admission was contingen
+Do you have a policy of placing students on a waiting list?
+Select from the dropdown menu.
+If yes, please answer the questions below for Fall 2023 admissions:
+Number of qualified applicants offered a place on waiting list:
+Number accepting a place on the waiting list:
+Number of wait-listed students admitted:
+Is your waiting list ranked?
+If yes, do you release that information to students?
+If yes, do you release that information to school counselors?","t on space availablity.
+Yes
+607
+506
+76
+No",,,

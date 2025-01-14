@@ -1,0 +1,19 @@
+0,1,2,3,4
+,FULL-TIME,,PART-TIME,
+,Men Women,,Men Women,
+Undergraduates,,,,
+"Degree-seeking, first-time
+freshmen",537,520,0,0
+"Other first-year, degree-seeking",0,0,0,0
+All other degree-seeking,"1,585","1,503",1,0
+Total degree-seeking,"2,122","2,023",1,0
+"All other undergraduates
+enrolled in credit courses",19,5,0,0
+Total undergraduates,"2,141","2,028",1,0
+Graduate,,,,
+"Degree-seeking, first-time",398,389,4,5
+All other degree-seeking,670,613,13,16
+"All other graduates enrolled in
+credit courses",3,5,3,3
+Total graduate,"1,071","1,007",20,24
+Total all students,"3,212","3,035",21,24
