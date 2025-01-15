@@ -14,7 +14,6 @@ def extract_and_save_tables(pdf_folder, output_folder):
             pdf_path = os.path.join(pdf_folder, pdf_file)
             
             extracted_tables = {}
-            all_tables = []
             
             with pdfplumber.open(pdf_path) as pdf:
                 for page in pdf.pages:
