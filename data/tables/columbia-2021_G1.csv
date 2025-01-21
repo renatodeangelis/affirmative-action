@@ -3,10 +3,10 @@
 PRIVATE INSTITUTION,,
 Tuition:,"$62,570","$62,570"
 PUBLIC INSTITUTION,,
-Tuition: In-district:,NA,NA
-Tuition: In-state (out-of-district):,NA,NA
-Tuition: Out-of-state:,NA,NA
-Tuition: Non-resident alien,NA,NA
+Tuition: In-district:,,
+Tuition: In-state (out-of-district):,,
+Tuition: Out-of-state:,,
+Tuition: Non-resident alien,,
 FOR ALL INSTITUTIONS,,
 Required Fees10,"$3,569","$2,954"
 Room and Board (on-campus):,"$16,286","$16,212"

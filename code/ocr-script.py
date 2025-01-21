@@ -54,5 +54,4 @@ def extract_and_save_african_tables(pdf_folder, output_folder):
                 df.to_csv(output_file, index=False)
                 print(f"Saved: {output_file}")
 
-extract_and_save_tables(pdf_folder, output_folder)
 extract_and_save_african_tables(pdf_folder, output_folder)

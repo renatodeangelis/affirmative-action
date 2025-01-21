@@ -1,5 +1,23 @@
-0,1,2,3
-Total All Students,Men,Women,"Another
-Gender"
-Total All Students: Full-Time,"1,505",958,C or t
-Total All Students: Part-Time,C or t,C or t,C or t
+0,1,2,3,4,5
+Racial/Ethnic Category,"Degree-seeking
+First-time First
+year","Degree-seeking
+Undergraduates
+(include first-time
+first-year)",,Total,
+,,,,Undergraduates,
+,,,,(both degree-,
+,,,,and non-degree-,
+,,,,seeking),
+Nonresidents,47,126,126,,
+Hispanic/Latino,28,194,194,,
+"Black or African American, non-Hispanic",11,38,38,,
+"White, non-Hispanic",56,204,204,,
+"American Indian or Alaska Native, non-
+Hispanic",1,2,2,,
+"Asian, non-Hispanic",105,362,362,,
+"Native Hawaiian or other Pacific Islander,
+non-Hispanic",0,0,0,,
+"Two or more races, non-Hispanic",18,92,92,,
+Race and/or ethnicity unknown,0,5,5,,
+Total,266,"1,023","1,023",,

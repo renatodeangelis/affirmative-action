@@ -1,6 +1,23 @@
-0
-""
-"Racial/ethnic destinations are requested only for United States citizens, residents, and other eligible non-citizens.
-Eligible non-citizens include all students who completed high school or a GED equivalency within the United
-States (including DACA and undocumented students) and who were not an F-1 non-immigrant student visa at
-the time of high school graduation."
+0,1,2,3
+,"Degree-seeking
+First-time First
+year","Degree-seeking
+Undergraduates
+(include first-time
+first-year)","Total
+Undergraduates
+(both degree- and
+non-degree-
+seeking)"
+Nonresidents,31,92,92
+Hispanic/Latino,41,216,216
+"Black or African American, non-Hispanic",11,34,34
+"White, non-Hispanic",44,208,208
+"American Indian or Alaska Native, non-
+Hispanic",0,1,1
+"Asian, non-Hispanic",82,338,338
+"Native Hawaiian or otherPacific Islander,
+non-Hispanic",0,1,1
+"Two or more races, non-Hispanic",14,87,87
+Race and/or ethnicity unknown,1,5,5
+Total,224,982,982

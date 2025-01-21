@@ -4,16 +4,16 @@ ti t d b d t d,t l FU thLiL -lTiIMk E,,PART-TIME,
 Undergraduates,,,,
 "Degree-seeking, first-time
 freshmen",656,608,,
-"Other first-year, degree-seeking",9,3,1,1
-All other degree-seeking,"1,687","1,733",3,2
-Total degree-seeking,"2,352","2,344",4,3
+"Other first-year, degree-seeking",9,3,1,1.0
+All other degree-seeking,"1,687","1,733",3,2.0
+Total degree-seeking,"2,352","2,344",4,3.0
 "All other undergraduates
 enrolled in credit courses",,,,
-Total undergraduates,"2,352","2,344",4,3
+Total undergraduates,"2,352","2,344",4,3.0
 Graduate,,,,
-"Degree-seeking, first-time",1086,1208,10,22
-All other degree-seeking,2344,2571,42,73
+"Degree-seeking, first-time",1086,1208,10,22.0
+All other degree-seeking,2344,2571,42,73.0
 "All other graduates enrolled in
 credit courses",,,1,
-Total graduate,3430,3779,53,95
-Total all students,"5,782","6,123",57,98
+Total graduate,3430,3779,53,95.0
+Total all students,"5,782","6,123",57,98.0

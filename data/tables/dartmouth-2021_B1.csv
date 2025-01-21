@@ -4,16 +4,16 @@
 Undergraduates,,,,
 "Degree-seeking, first-time
 freshmen",598,623,,
-"Other first-year, degree-seeking",0,0,0,0
+"Other first-year, degree-seeking",0,0,0,0.0
 All other degree-seeking,"1,697","1,614",1,
-Total degree-seeking,"2,295","2,237",1,0
+Total degree-seeking,"2,295","2,237",1,0.0
 "All other undergraduates enrolled
 in credit courses",14,9,,
-Total undergraduates,"2,309","2,246",1,0
+Total undergraduates,"2,309","2,246",1,0.0
 Graduate,,,,
-"Degree-seeking, first-time",459,454,10,4
-All other degree-seeking,620,616,8,9
+"Degree-seeking, first-time",459,454,10,4.0
+All other degree-seeking,620,616,8,9.0
 "All other graduates enrolled in
-credit courses",15,8,,2
-Total graduate,1094,1078,18,15
-Total all students,"3,403","3,324",19,15
+credit courses",15,8,,2.0
+Total graduate,1094,1078,18,15.0
+Total all students,"3,403","3,324",19,15.0

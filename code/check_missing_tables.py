@@ -25,6 +25,6 @@ def check_missing_tables(pdf_folder, output_folder, section_keywords):
 
 pdf_folder = "/Users/macbook/affirmative-action/data/cds"
 output_folder = "/Users/macbook/affirmative-action/data/tables"
-section_keywords = ["B1", "B2", "C1", "C9", "G1", "H2"]
+section_keywords = ["B1", "African", "C1", "C9", "G1", "H2"]
 
 check_missing_tables(pdf_folder, output_folder, section_keywords)
